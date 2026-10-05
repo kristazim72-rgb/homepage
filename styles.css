@@ -1,0 +1,30 @@
+:root {
+  --ff-heading: 'Playfair Display', serif;
+  --ff-body: 'Lato', sans-serif;
+  --clr-bg: #f8f9fa;
+  --clr-primary: #1d3557;
+  --clr-accent: #0284c7;
+  --clr-text: #333333;
+  --clr-surface: #ffffff;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--ff-body);
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  line-height: 1.6;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(90%, 1100px);
+  margin-inline: auto;
+}
